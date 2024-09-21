@@ -65,6 +65,7 @@ Los contenidos, ejemplos y recursos utilizados en este repositorio provienen de 
 - [MDN Web Docs](https://developer.mozilla.org/es/): Documentación detallada sobre JavaScript y tecnologías web.
 - [w3schools](https://www.w3schools.com/js/): Tutoriales prácticos de JavaScript.
 - [Eloquent JavaScript](https://eloquentjavascript.net/): Un libro gratuito y altamente recomendado para aprender JavaScript.
+- [JavaScript Fundamentals](https://javascript.info/first-steps): Primeros pasos en el lenguaje.
 - Otros recursos que se irán mencionando en los apartados correspondientes del repositorio.
 
 ## 🌟 Agradecimientos
