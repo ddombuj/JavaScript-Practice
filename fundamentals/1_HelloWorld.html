@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <!--This is used to write the javascript code in the same html file.
+        If the code is too extensed, it can be written in a separate file
+        and referenced back to here, as done below-->
+    <script>
+      alert("Hello World");
+    </script>
+
+    <!--Full URL (from https://javascript.info/hello-world just to show as an example)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+
+    <!--Relative URL-->
+    <script src="HelloWorld.js"></script>
+
+    <!--If the script is set, the content will be ignored-->
+    <script src="HelloWorld.js">
+      alert(1); //This will not be executed
+    </script>
+
+    <p>...After the script.</p>
+  </body>
+</html>

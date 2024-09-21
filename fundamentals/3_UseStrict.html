@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strict</title>
+  </head>
+  <body>
+    <!--I could copy the explanation below, but the guide I'm using explanes it very clearly
+    https://javascript.info/strict-mode
+    In summary, to enable the strict mode, which shows modificacions done to the language after ECMAScript 5 appeared in 2009,
+    we need to explicitly add the "use strict" statement at the beginning of the script.-->
+
+    <script>
+      "use strict";
+
+      //the code here works in the modern way
+    </script>
+
+    <script>
+      alert("some code");
+      // "use strict" below is ignored, it must be at the top
+
+      ("use strict");
+      // strict mode is not activated
+    </script>
+
+    <!--Additionally, the strict mode cannot be cancelled once it is activated-->
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Variables are used to store data, to declare them we use the keyword "let"
+      let message;
+      message = "Hello World"; //Assign data into it
+      alert(message); //Show the variable content
+
+      /*We can also declare multiple variables in one line, eventhough it is not recommended as it can be confusing
+      let name = "Diego", age = 20, content = "Hello"; 
+      */
+      //This might be a bit longer, but easier to read
+      let name1 = "Diego";
+      let age1 = 20;
+      let content1 = "Hello";
+
+      /*Theres another keyword: "var" instead of "let", and eventhough they do the same, 
+      var does it in a slightly different way, and "old-school way" */
+
+      /*Read this page if you are not sure about something in this file: 
+        https://javascript.info/variables
+      */
+
+      /*When naming a variable there are three limitations on variable names in JavaScript:
+            1. The name must contain only letters, digits, or the symbols $ and _.
+            2. The first character must not be a digit.
+            3. The name cannot be a reserved word. */
+
+      /*Variables are created when you assign a value to them in no "use strict" mode. 
+      You can also reassign them later.*/
+      num = 5; //It is correct here
+
+      //In strict mode, it will give an error
+      /*
+      "use strict";
+      num1 = 5; Error: num1 is not defined
+      */
+
+      //Constants
+      //To declare a constant, "const" is used instead of "let"
+      const myName = "Diego";
+      myName = "Jose"; //error: can't reassing the constant!
+    </script>
+  </body>
+</html>
