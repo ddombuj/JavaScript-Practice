@@ -1,0 +1,12 @@
+1. Hello World theory needed
+    1. Task_ShowAnAlert.html -> 
+        Show an alert that shows a message.
+    2. Task_ShowAnExternalAlert.html -> 
+        Show an alert using an external script. Make sure it is in the same folder. 
+        (Create the html file with the script reference, and the javascript file with the code)
+4. Variables theory needed
+    3. Task_WorkWithVariables.html ->
+        a. Declare two variables: "admin" and "name".
+        b. Assign the value 'Diego' to name.
+        c. Copy the value from "name" to "admin".
+        d. Show the value of "admin" using "alert()" (It must output 'Diego').
