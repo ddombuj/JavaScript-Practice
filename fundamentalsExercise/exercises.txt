@@ -10,3 +10,7 @@
         b. Assign the value 'Diego' to name.
         c. Copy the value from "name" to "admin".
         d. Show the value of "admin" using "alert()" (It must output 'Diego').
+6. Alert-Prompt-Confirm theory needed
+    4. Task_AskForNameAndDisplay.html->
+        a. Crea una página web que pida un nombre y lo muestre.
+
