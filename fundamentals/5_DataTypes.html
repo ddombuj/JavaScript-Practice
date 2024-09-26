@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataTypes</title>
+  </head>
+  <body>
+    <script>
+      //Hay 8 tipos de datos básicos en js
+
+      //Number -> Incluye reales y flotantes
+      let n = 123;
+      n = 12.345;
+      /*Infinity y NaN es incluyen
+            Infinity -> representa un numero mayor que cualquier otro
+            NaN -> representa un error de cálculo
+            NaN ** 0 = 1 is the only exception*/
+
+      //BigInt > -9007199254740991 && < 9007199254740991
+      console.log(9007199254740991 + 1); // 9007199254740992
+      console.log(9007199254740991 + 2); // 9007199254740992
+
+      //String
+      let name = "Diego";
+      // usando variables
+      alert(`Hola, ${name}!`); // Hola, Diego!
+      // usando expresiones
+      alert(`el resultado es ${1 + 2}`); //el resultado es 3
+
+      //Boolean
+      let nameFieldChecked = true;
+      let isGreater = 4 > 1;
+      alert(isGreater);
+
+      //Null
+      let age = null;
+
+      //Undefined
+      let str;
+      alert(str);
+
+      //Object & Symbol
+
+      // typeof -> devuelve el tipo de dato operando
+      typeof undefined; // "undefined"
+      typeof 0; // "number"
+      typeof 10n; // "bigint"
+      typeof true; // "boolean"
+      typeof "foo"; // "string"
+      typeof Symbol("id"); // "symbol"
+      typeof Math; // "object"  (1)
+      typeof null; // "object"  (2)
+      typeof alert; // "function"  (3)
+    </script>
+  </body>
+</html>
